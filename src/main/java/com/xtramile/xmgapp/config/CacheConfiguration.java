@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, com.xtramile.xmgapp.domain.User.class.getName());
             createCache(cm, com.xtramile.xmgapp.domain.Authority.class.getName());
             createCache(cm, com.xtramile.xmgapp.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.xtramile.xmgapp.domain.Consumer.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

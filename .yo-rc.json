@@ -43,7 +43,9 @@
     "devServerPort": 4200,
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Consumer"],
+    "lastLiquibaseTimestamp": 1627386054000
   },
   "git-provider": "GitHub",
   "git-company": "ikomangmahendra",
